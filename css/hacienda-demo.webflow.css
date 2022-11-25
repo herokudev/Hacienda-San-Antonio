@@ -2835,6 +2835,10 @@ figcaption {
   margin-left: 15px;
 }
 
+.label.cc-footer-section-headline {
+  color: #000;
+}
+
 .label.cc-product-details {
   margin-bottom: 20px;
 }
@@ -2966,6 +2970,7 @@ figcaption {
 }
 
 .small-paragraph {
+  margin-bottom: 40px;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   -ms-grid-row-align: auto;
@@ -2976,7 +2981,9 @@ figcaption {
 }
 
 .small-paragraph.cc-copyright-footer {
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-top: 0px;
   -webkit-align-self: end;
   -ms-flex-item-align: end;
   -ms-grid-row-align: end;
@@ -3208,6 +3215,10 @@ figcaption {
 }
 
 .menu {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   box-shadow: none;
   line-height: 10px;
 }
@@ -3570,7 +3581,7 @@ figcaption {
 
 .footer-link {
   margin-bottom: 10px;
-  color: rgba(29, 31, 46, 0.7);
+  color: #000;
   font-size: 14px;
   line-height: 22px;
 }
@@ -5221,6 +5232,8 @@ figcaption {
 
 .heading-2 {
   margin-top: 40px;
+  font-family: 'PT Serif', serif;
+  color: #000;
 }
 
 .section-2 {
@@ -5351,8 +5364,14 @@ figcaption {
   margin-bottom: 40px;
 }
 
+.container-8 {
+  font-family: 'PT Serif', serif;
+  color: brown;
+}
+
 .paragraph-4 {
   padding-left: 40px;
+  color: brown;
   font-size: 20px;
 }
 
@@ -5364,48 +5383,62 @@ figcaption {
 
 .paragraph-5 {
   padding-left: 40px;
+  color: brown;
   font-size: 20px;
 }
 
 .paragraph-6 {
   padding-left: 40px;
+  color: brown;
   font-size: 20px;
 }
 
 .paragraph-7 {
   padding-left: 40px;
+  font-family: 'PT Serif', serif;
+  color: brown;
   font-size: 20px;
 }
 
 .list-2 {
   padding-left: 60px;
+  font-family: 'PT Serif', serif;
+  color: brown;
   font-size: 20px;
   list-style-type: disc;
 }
 
 .paragraph-8 {
   padding-left: 40px;
+  font-family: 'PT Serif', serif;
+  color: brown;
   font-size: 20px;
 }
 
 .paragraph-9 {
   padding-left: 20px;
+  font-family: 'PT Serif', serif;
+  color: brown;
   font-size: 20px;
 }
 
 .list-3 {
   padding-left: 40px;
+  font-family: 'PT Serif', serif;
+  color: brown;
   font-size: 20px;
   list-style-type: disc;
 }
 
 .paragraph-10 {
   padding-left: 20px;
+  color: brown;
   font-size: 20px;
 }
 
 .paragraph-11 {
   padding-left: 20px;
+  color: brown;
   font-size: 20px;
 }
 
@@ -5418,17 +5451,20 @@ figcaption {
 .paragraph-12 {
   padding-bottom: 20px;
   padding-left: 20px;
+  color: brown;
   font-size: 20px;
 }
 
 .paragraphsnacks {
   padding-bottom: 20px;
   padding-left: 20px;
+  color: brown;
   font-size: 20px;
 }
 
 .paragraph-13 {
   padding-left: 20px;
+  color: brown;
   font-size: 20px;
 }
 
@@ -5460,36 +5496,45 @@ figcaption {
 .paragraph-14 {
   padding-top: 20px;
   padding-left: 20px;
+  color: brown;
   font-size: 20px;
 }
 
 .paragraph-15 {
   padding-right: 20px;
   padding-left: 20px;
+  color: brown;
   font-size: 20px;
 }
 
 .container-9 {
   padding-left: 20px;
+  font-family: 'PT Serif', serif;
+  color: brown;
 }
 
 .container-10 {
   padding-left: 20px;
+  font-family: 'PT Serif', serif;
+  color: brown;
 }
 
 .container-11 {
   margin-bottom: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
+  font-family: 'PT Serif', serif;
 }
 
 .paragraph-16 {
   padding-left: 20px;
+  color: brown;
   font-size: 20px;
 }
 
 .list-6 {
   padding-left: 40px;
+  color: brown;
   font-size: 20px;
   list-style-type: disc;
 }
@@ -5498,7 +5543,7 @@ figcaption {
   margin-top: 25px;
   padding-left: 0px;
   background-color: #dae0d0;
-  color: rgba(29, 31, 46, 0.7);
+  color: #000;
   font-size: 20px;
 }
 
@@ -5769,6 +5814,199 @@ figcaption {
 
 .section-8 {
   margin-bottom: 20px;
+  color: #000;
+}
+
+.btnverfotos {
+  margin-bottom: 20px;
+  margin-left: 100px;
+  background-color: #dae0d0;
+  color: #000;
+}
+
+.container-19 {
+  max-width: 800px;
+}
+
+.container-20 {
+  max-width: 800px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+.slide {
+  min-height: 600px;
+}
+
+.slider-6 {
+  min-height: 800px;
+}
+
+.section-9 {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+.image-48 {
+  min-width: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.image-49 {
+  min-width: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.nav-link {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.nav-link-2 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.nav-link-3 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.nav-link-4 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.nav-link-5 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.nav-link-6 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.nav-link-7 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.image-50 {
+  min-width: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.image-51 {
+  min-width: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.image-52 {
+  min-width: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.image-53 {
+  min-width: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.image-54 {
+  min-width: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.image-55 {
+  min-width: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.image-56 {
+  min-width: 600px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.paragraph-17 {
+  font-family: 'PT Serif', serif;
+  color: #a25f4b;
+  font-size: 18px;
+}
+
+.heading-20 {
+  padding-left: 20px;
+}
+
+.heading-21 {
+  padding-left: 40px;
+  font-family: 'PT Serif', serif;
+  color: brown;
+}
+
+.container-21 {
+  font-family: 'PT Serif', serif;
+  color: brown;
+}
+
+.container-22 {
+  max-width: 600px;
+  border: 3px solid #000;
+}
+
+.container-23 {
+  max-width: 400px;
+}
+
+.section-10 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.image-57 {
+  outline-color: #1d1f2e;
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 3px;
+}
+
+.image-58 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container-24 {
+  max-width: 800px;
+}
+
+.heading-22 {
+  padding-left: 20px;
 }
 
 @media screen and (max-width: 991px) {
@@ -6725,6 +6963,10 @@ figcaption {
   .image-42 {
     margin-left: 60px;
   }
+
+  .btnverfotos {
+    margin-left: 60px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -7118,6 +7360,64 @@ figcaption {
   .image-42 {
     margin-left: 0px;
   }
+
+  .btnverfotos {
+    margin-left: 200px;
+  }
+
+  .image-48 {
+    min-width: 500px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .image-49 {
+    min-width: 500px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .image-50 {
+    min-width: 500px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .image-51 {
+    min-width: 500px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .image-52 {
+    min-width: 500px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .image-53 {
+    min-width: 500px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .image-54 {
+    min-width: 500px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .image-55 {
+    min-width: 500px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .image-56 {
+    min-width: 500px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -7256,6 +7556,51 @@ figcaption {
 
   .image-42 {
     margin-left: 0px;
+  }
+
+  .btnverfotos {
+    margin-left: 100px;
+  }
+
+  .slider-6 {
+    min-height: 475px;
+  }
+
+  .image-48 {
+    min-width: 325px;
+  }
+
+  .image-49 {
+    min-width: 325px;
+  }
+
+  .image-50 {
+    min-width: 325px;
+  }
+
+  .image-51 {
+    min-width: 325px;
+  }
+
+  .image-52 {
+    min-width: 325px;
+  }
+
+  .image-53 {
+    min-width: 325px;
+  }
+
+  .image-54 {
+    min-width: 325px;
+  }
+
+  .image-55 {
+    min-width: 325px;
+  }
+
+  .image-56 {
+    max-width: 75%;
+    min-width: 325px;
   }
 }
 
