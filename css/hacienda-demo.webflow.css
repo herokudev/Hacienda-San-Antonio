@@ -5767,6 +5767,19 @@ figcaption {
   min-height: 600px;
 }
 
+.img-photo {
+  margin-left: 20%;
+  width: 500px;
+  height: 550px;
+  object-fit: contain;  
+}
+
+.img-photo2 {
+  width: 100%;
+  height: 550px;
+  object-fit: fill;  
+}
+
 .image-38 {
   margin-top: 0px;
 }
